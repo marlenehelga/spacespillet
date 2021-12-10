@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("hubbel2.jpeg");
+    
+}
+.tekst{
+    background: rgba(100,122,136,0.4);
+    height: 190px;
+    width: 1500px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.tekst h2{
+    color: $tekst;
+    font-size: 45px;
+    font-family: $font;
+}
+h4{
+    color: $tekst;
+    font-size: 35px;
+    font-family: $font;
+}
+#print{
+    font-family: $font;
+    color: $tekst;
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#gameOver{
+    @include tekstbox;
+}
+h1{
+    color: $tekst;
+    font-size: 55px;
+    font-family: $font;
+}
+#sidsteWin{
+   @include tekstbox;
+}
+#nextLevel{
+    @include tekstbox;
+}
+.containerLogoutKnap{
+    margin-top: 100px;
+}
+.logoutKnap{
+    width: 100px;
+    height: 35px;
+    font-size: 25px;
+    font-family: $font;
+    background-color: $tekst;
+    border: solid 3px black;
+    margin-left: 45%;
+    text-decoration: none;
+    color: black;
+
+}

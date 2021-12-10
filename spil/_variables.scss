@@ -1,0 +1,16 @@
+$lilla:#2E2251;
+$tekst:#f6f1f5;
+$font: 'Courier New', Courier, monospace;
+
+@mixin tekstbox {
+    width: 90%;
+    margin-left: 5%;
+    height: 600px;
+    background-color: $lilla;
+    opacity: .95;
+    justify-content: center;
+    padding-top: 120px;
+    top: 120px;
+    position: absolute;
+    display: none;
+}
